@@ -1,11 +1,14 @@
+function handleSubmit(e) {
+    e.preventDefault();
+    const formInfo =new FormData (formulario);
+    const nombre=formInfo.get("nombre")
+    const apellido=formInfo.get("apellido")
+    const telefono=formInfo.get("telefono")
+    const correo=formInfo.get("correo")
+    const comentario=formInfo.get("comentario")
+    formulario.reset()
+console.log(formInfo)
+}
 
-
-let nombre = document.getElementById("nombre");
-let empresa = document.getElementById("apellido");
-let direccion = document.getElementById("telefono");
-let telefono = document.getElementById("email");
-let mail = document.getElementById("comentario");
-
-console.log="hola"
-
-console.log("nombre");
+const formulatio= document.getElementById("formulario")
+formulario.addEventListener("submit" , handleSubmit)

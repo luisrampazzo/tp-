@@ -131,8 +131,8 @@ form {
 
 }
 #form1{
-  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
-height: 600px;
+background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
+height:680px;
 margin-top: 3px;
 margin-bottom: 3px;
 }

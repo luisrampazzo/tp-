@@ -57,37 +57,40 @@
  
 <section class="row">
 <div class="col-lg-6 ">
-  <form id="form1">
+  <form id="formulario">
     <div class=" titulo"><P>Formulario de contacto</P></div>
     
     <div class="mb-3 px-3">
       <label for="nombre" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="nombre">
+      <input type="text" name="nombre" class="form-control" id="nombre">
     </div>
     <div class="mb-3 px-3">
       <label for="apellido" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="apellido">
+      <input type="text" name="apellido" class="form-control" id="apellido">
     </div>
     <div class="mb-3 px-3">
       <label for="telefono" class="form-label">Telefono</label>
-      <input type="tel" class="form-control" id="telefono">
+      <input type="text" name="telefono" class="form-control" id="telefono">
     </div>
     <div class="mb-3 px-3">
       <label for="email" class="form-label">Correo electronico</label>
-      <input type="email" id="email" class="form-control"  aria-describedby="emailHelp">
+      <input type="text" name="email" id="email" class="form-control"  aria-describedby="emailHelp">
           </div>
     <div class="mb-3 px-3">
       <label for="comentario" class="form-label">Deje aqui su comentario</label>
-      <input type="comentario" class="form-control" id="comentario">
+      <textarea type="text" name="comentario" class="form-control" id="comentario" cols="30" rows="5"></textarea>
     </div>
    
-    <button type="submit" class="btn btn-dark my-3 mx-3">Enviar</button>
+    <input type="submit" value="Enviar" onclick="alert('Su mensaje fue enviado, nos comunicaremos a la brevedad. Gracias ')" >
+
+    
+
   </form>
 </div>
 <div class="col-lg-6" id="mapa">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.2538665679526!2d-60.69614024237072!3d-31.626898834420015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a981c00a20fd%3A0xb00f758bf3200719!2sfenix!5e0!3m2!1ses!2sar!4v1681525338421!5m2!1ses!2sar" 
-  width="500" 
-  height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27178.065617985118!2d-60.73124498916017!3d-31.626780099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a981c00a20fd%3A0xb00f758bf3200719!2sfenix!5e0!3m2!1ses!2sar!4v1681771988437!5m2!1ses!2sar" 
+  width="600" height="650" style="border:0;" 
+  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 </section>
