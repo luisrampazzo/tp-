@@ -4,14 +4,14 @@
 }
 body{
   display: flex;
-  background: url(../assets/1-25.jpg);
+  background: url(../assets/1-26.jpg);
   
  
 
 }
 .navbar {
   display: flex;
-  background-color: rgb(188, 196, 52);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
  	
 }
 nav i {
@@ -25,7 +25,7 @@ main {
 }
 
 .carousel-caption {
-  background-color: rgba(198, 220, 141, 0.603);
+  background-color: rgba(141, 204, 220, 0.603);
   border-radius: 15px;
 }
 .hero {
@@ -34,7 +34,8 @@ main {
 .banner1 {
  padding: 10px;
   text-align: center;
-  background-color: rgb(188, 196, 52);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
+ 
   
   
 }
@@ -45,18 +46,18 @@ main {
 
 #art1 {
   flex-grow: 1;
-  background-color: rgba(197, 220, 141);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   
 }
 
 #art2 {
   flex-grow: 1;
-  background-color:rgba(197, 220, 141);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   
 }
 #art3 {
   flex-grow: 1;
-  background-color: rgba(197, 220, 141);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   
   
 }
@@ -74,14 +75,14 @@ img {
   
 #articuloNos1{
   flex-grow: 1;
-  background-color: rgba(197, 220, 141);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   
   
 }
 
 #articuloNos2{
   flex-grow: 1;
-  background-color: rgba(197, 220, 141);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   padding-top: 1rem;
 }
 
@@ -91,7 +92,7 @@ img {
   }
 #artServicio{
   flex-grow: 1;
-  background-color: rgba(197, 220, 141);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   
   
 }
@@ -100,7 +101,7 @@ img {
 
 footer{
   display: flex;
-   background-color: rgb(188, 196, 52);
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
   
 }
 .left {
@@ -118,17 +119,33 @@ justify-content: center;
  
 }
 
-#formContacto{
-  align-items: center;
+#seccionContacto{
+  display: flex;
+  justify-content: space-between;
 }
 
 form {
-  flex-grow: 1;
-  background-color: rgba(197, 220, 141);
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: column;
+ flex-direction: column;
+ 
   
-   
+
+}
+#form1{
+  background: linear-gradient(135deg, rgba(59, 195, 207, 0.664) 10% ,rgb(119, 192, 199) 45%, rgb(172, 217, 221) 100%);
+height: 600px;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+#mapa{
+  display: flex;
+  margin-block: 3px;
+  justify-content: end;
+ 
+}
+.titulo{
+font-size: 1.5rem;
+padding-left: 50px;
+padding-top: 20px;
+
 }
 
